@@ -34,3 +34,4 @@ jobs:
     - name: Push Docker image
       run: |
         docker push 381491983696.dkr.ecr.us-east-1.amazonaws.com/my-angular-app:latest
+ 
