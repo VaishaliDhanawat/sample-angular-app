@@ -29,8 +29,8 @@ jobs:
 
     - name: Tag Docker image
       run: |
-        docker tag my-angular-app:latest 381491983696.dkr.ecr.us-east-1.amazonaws.com/my-angular-app:latest
+        docker tag my-angular-app:latest 381491983696.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/my-angular-app:latest
 
     - name: Push Docker image
       run: |
-        docker push 381491983696.dkr.ecr.us-east-1.amazonaws.com/my-angular-app:latest
+        docker push 381491983696.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/my-angular-app:latest
