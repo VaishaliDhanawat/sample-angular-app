@@ -5,7 +5,7 @@ on:
     branches:
       - master  # Ensure this is the correct branch name
 
-jobs:
+jobs: 
   build:
     runs-on: ubuntu-latest
 
