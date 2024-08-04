@@ -1,9 +1,9 @@
 name: Build and Push Docker Image
 
-on: 
+on:
   push:
     branches:
-      - main  # Trigger on pushes to the 'main' branch
+      - master  # Ensure this is the correct branch name
 
 jobs:
   build:
