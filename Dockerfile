@@ -1,7 +1,7 @@
 # Use the official Node.js image.
 FROM node:18 AS build
 
-# Set the working directory.
+# Set the working directory. 
 WORKDIR /app
 
 # Copy the package.json and package-lock.json
